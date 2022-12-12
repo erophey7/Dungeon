@@ -11,5 +11,11 @@ Mods: {
             DickShooter: Членострел
             GayHamaxe: Гейский молотопор
         }
+        MapObject: {
+            GayOre: Гейская руда
+        }
+        NPCName: {
+            LatexSkeleton: латексный скелет
+        }
     }
 }

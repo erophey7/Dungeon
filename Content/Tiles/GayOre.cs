@@ -23,7 +23,6 @@ namespace Dungeon.Content.Tiles
 			Main.tileBlockLight[Type] = true;
 
 			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("Гейская руда");
 			AddMapEntry(new Color(5, 155, 242), name);
 
 			DustType = 84;

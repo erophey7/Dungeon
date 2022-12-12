@@ -12,5 +12,11 @@ Mods: {
             GayRepeater: Gay Crossbow
             GayHamaxe: Gay Hamaxe
         }
+        MapObject: {
+            GayOre: Gay ore
+        }
+        NPCName: {
+            LatexSkeleton: latex skeleton
+        }
     }
 }
