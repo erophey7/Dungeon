@@ -3,6 +3,7 @@ Mods: {
         ItemTooltip: {
             DickShooter: Sword of a real wanker
             GayRepeater: Crossbow of a real man
+            Latex: Quite resilient
         }
         ItemName: {
             GayBar: Gay bar
@@ -11,6 +12,7 @@ Mods: {
             DickShooter: DickShooter
             GayRepeater: Gay Crossbow
             GayHamaxe: Gay Hamaxe
+            Latex: Latex
         }
         MapObject: {
             GayOre: Gay ore

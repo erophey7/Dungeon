@@ -3,6 +3,7 @@ Mods: {
         ItemTooltip: {
             DickShooter: Меч настоящего дрочлы
             GayRepeater: Арбалет настоящего мужика
+            Latex: Довольно упругий
         }
         ItemName: {
             GayBar: Гейский слиток
@@ -10,6 +11,7 @@ Mods: {
             GayRepeater: Гейский арбалет
             DickShooter: Членострел
             GayHamaxe: Гейский молотопор
+            Latex: Латекс
         }
         MapObject: {
             GayOre: Гейская руда

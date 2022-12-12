@@ -13,7 +13,8 @@ namespace Dungeon.Content.NPCs
 	{
 		public override void SetStaticDefaults() {
 
-			Main.npcFrameCount[Type] = Main.npcFrameCount[NPCID.Skeleton];
+			//Main.npcFrameCount[Type] = Main.npcFrameCount[NPCID.Skeleton];
+            Main.npcFrameCount[NPC.type] = 25;
 
 			NPCID.Sets.NPCBestiaryDrawModifiers value = new NPCID.Sets.NPCBestiaryDrawModifiers(0) { // Influences how the NPC looks in the Bestiary
 				Velocity = 1f // Draws the NPC in the bestiary as if its walking +1 tiles in the x direction
@@ -27,7 +28,7 @@ namespace Dungeon.Content.NPCs
 			NPC.damage = 14;
 			NPC.defense = 6;
 			NPC.lifeMax = 200;
-			NPC.HitSound = SoundID.NPCHit1;
+			NPC.HitSound = SoundID.NPCHit2;
 			NPC.DeathSound = SoundID.NPCDeath2;
 			NPC.value = 60f;
 			NPC.knockBackResist = 0.5f;
@@ -58,8 +59,7 @@ namespace Dungeon.Content.NPCs
 			// npcLoot.Add(ItemDropRule.Common(ItemID.ZombieArm, 250)); // Drop zombie arm with a 1 out of 250 chance.
 
 			// Finally, we can add additional drops. Many Zombie variants have their own unique drops: https://terraria.fandom.com/wiki/Zombie
-			npcLoot.Add(ItemDropRule.Common(ItemID.Confetti, 100)); // 1% chance to drop Confetti
-            npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<Content.Items.Placeable.GayBar>(), 1, 1));
+            npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<Content.Items.Materials.Latex>(), 5, 2, 5));
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
@@ -70,7 +70,6 @@ namespace Dungeon.Content.NPCs
 			// We can use AddRange instead of calling Add multiple times in order to add multiple items at once
 			bestiaryEntry.Info.AddRange(new IBestiaryInfoElement[] {
 				// Sets the spawning conditions of this NPC that is listed in the bestiary.
-				BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Times.DayTime,
 
 				// Sets the description of this NPC that is listed in the bestiary.
 				new FlavorTextBestiaryInfoElement("This type of zombie for some reason really likes to spread confetti around. Otherwise, it behaves just like a normal zombie."),
