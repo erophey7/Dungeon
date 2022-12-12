@@ -33,8 +33,9 @@ namespace Dungeon.Content.Items.Weapons.Melee
 		public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.RedPotion, 1);
-			recipe.AddTile(TileID.PlatinumCoinPile);
+			recipe.AddIngredient(ItemID.Zenith);
+			recipe.AddIngredient<Content.Items.Placeable.GayBar>(20);
+			recipe.AddTile(TileID.LunarCraftingStation);
 			recipe.Register();
 		}
 	}
