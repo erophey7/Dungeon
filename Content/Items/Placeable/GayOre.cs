@@ -3,6 +3,7 @@ using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
 
+
 namespace Dungeon.Content.Items.Placeable
 {
 	public class GayOre : ModItem
@@ -10,7 +11,6 @@ namespace Dungeon.Content.Items.Placeable
 		public override void SetStaticDefaults() {
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 100;
 			ItemID.Sets.SortingPriorityMaterials[Item.type] = 58;
-            DisplayName.SetDefault("Гейская руда");
 		}
 
 		public override void SetDefaults() {

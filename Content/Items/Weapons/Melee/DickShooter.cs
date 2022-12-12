@@ -3,17 +3,12 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 using Dungeon.Content.Projectiles;
+using Terraria.Localization;
 
 namespace Dungeon.Content.Items.Weapons.Melee
 {
 	public class DickShooter : ModItem
 	{
-		public override void SetStaticDefaults()
-		{
-
-			DisplayName.SetDefault("Членострел");
-			Tooltip.SetDefault("Меч великого дрочлы");
-		}
 
 		public override void SetDefaults()
 		{

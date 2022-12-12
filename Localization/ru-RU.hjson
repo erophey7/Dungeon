@@ -1,0 +1,14 @@
+Mods: {
+    Dungeon: {
+        ItemTooltip: {
+            DickShooter: Меч настоящего дрочлы
+            GayRepeater: Арбалет настоящего мужика
+        }
+        ItemName: {
+            GayBar: Гейский слиток
+            GayOre: Гейская руда
+            GayRepeater: Гейский арбалет
+            DickShooter: Членострел
+        }
+    }
+}

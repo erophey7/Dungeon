@@ -3,6 +3,7 @@ using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
 
+
 namespace Dungeon.Content.Items.Placeable
 {
 	public class GayBar : ModItem
@@ -10,7 +11,6 @@ namespace Dungeon.Content.Items.Placeable
 		public override void SetStaticDefaults() {
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 25;
 			ItemID.Sets.SortingPriorityMaterials[Item.type] = 59; // Influences the inventory sort order. 59 is PlatinumBar, higher is more valuable.
-			DisplayName.SetDefault("Гейский слиток");
 		}
 
 		public override void SetDefaults() {

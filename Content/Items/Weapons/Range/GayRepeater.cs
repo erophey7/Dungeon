@@ -1,4 +1,3 @@
-
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.Audio;
@@ -11,9 +10,8 @@ namespace Dungeon.Content.Items.Weapons.Range
 {
 	public class GayRepeater : ModItem
 	{
+		
 		public override void SetStaticDefaults() {
-			Tooltip.SetDefault("Арбалет настоящего мужика");
-            DisplayName.SetDefault("Гейский арбалет");
 
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}

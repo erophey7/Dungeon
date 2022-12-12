@@ -1,0 +1,15 @@
+Mods: {
+    Dungeon: {
+        ItemTooltip: {
+            DickShooter: Sword of a real wanker
+            GayRepeater: Crossbow of a real man
+        }
+        ItemName: {
+            GayBar: Gay bar
+            GayOre: Gay ore
+            GayRepeater: Гейский арбалет
+            DickShooter: DickShooter
+            GayRepeater: Gay Crossbow
+        }
+    }
+}
