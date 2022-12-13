@@ -20,5 +20,8 @@ Mods: {
         NPCName: {
             LatexSkeleton: latex skeleton
         }
+        Bestiary: {
+            LatexSkeleton: Local overlord ♂Fucking slaves♂ located in ♂Dungeon♂.
+        }
     }
 }

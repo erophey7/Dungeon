@@ -19,5 +19,8 @@ Mods: {
         NPCName: {
             LatexSkeleton: латексный скелет
         }
+        Bestiary: {
+            LatexSkeleton: Местный повелитель ♂Fucking slaves♂ находящийся в ♂Dungeon♂.
+        }
     }
 }
