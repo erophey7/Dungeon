@@ -4,6 +4,7 @@ Mods: {
             DickShooter: Sword of a real wanker
             GayRepeater: Crossbow of a real man
             Latex: Quite resilient
+            GachaBook: don't be like ♂Fucking slaves♂
         }
         ItemName: {
             GayBar: Gay bar
@@ -14,9 +15,11 @@ Mods: {
             GayHamaxe: Gay Hamaxe
             Latex: Latex
             GachaBook: ♂Dungeon Master♂ Book
+            GayBrick: Gay brick
             }
         MapObject: {
             GayOre: Gay ore
+            GayBrickTile: Gay brick
         }
         NPCName: {
             LatexSkeleton: latex skeleton

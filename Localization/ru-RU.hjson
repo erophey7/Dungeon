@@ -4,6 +4,7 @@ Mods: {
             DickShooter: Меч настоящего дрочлы
             GayRepeater: Арбалет настоящего мужика
             Latex: Довольно упругий
+            GachaBook: не будьте как ♂Fucking slaves♂
         }
         ItemName: {
             GayBar: Гейский слиток
@@ -13,9 +14,11 @@ Mods: {
             GayHamaxe: Гейский молотопор
             Latex: Латекс
             GachaBook: книга ♂Dungeon Master♂
+            GayBrick: Гейский кирпич
         }
         MapObject: {
             GayOre: Гейская руда
+            GayBrickTile: Гейский кирпич
         }
         NPCName: {
             LatexSkeleton: латексный скелет
